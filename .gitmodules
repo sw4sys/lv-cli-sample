@@ -1,0 +1,8 @@
+[submodule "TcpSocket"]
+	path = TcpSocket
+	url = git@github.com:sw4sys/lv-tcp-socket.git
+	branch = library
+[submodule "ArgumentParser"]
+	path = ArgumentParser
+	url = git@github.com:sw4sys/lv-argument-parser.git
+	branch = library
