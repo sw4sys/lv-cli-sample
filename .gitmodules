@@ -6,3 +6,11 @@
 	path = ArgumentParser
 	url = git@github.com:sw4sys/lv-argument-parser.git
 	branch = library
+[submodule "PythonWrapper"]
+	path = PythonWrapper
+	url = git@github.com:sw4sys/lv-python-wrapper.git
+	branch = library
+[submodule "Logger"]
+	path = Logger
+	url = git@github.com:sw4sys/lv-logger.git
+	branch = library
