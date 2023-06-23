@@ -11,8 +11,10 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="TcpDataReceived Msg.lvclass" Type="LVClass" URL="../CallerMessage Messages/TcpDataReceived Msg/TcpDataReceived Msg.lvclass"/>
 		<Item Name="WaitForConnection Msg.lvclass" Type="LVClass" URL="../Tcp Messages/WaitForConnection Msg/WaitForConnection Msg.lvclass"/>
+		<Item Name="ConnectionWriteData Msg.lvclass" Type="LVClass" URL="../Tcp Messages/ConnectionWriteData Msg/ConnectionWriteData Msg.lvclass"/>
 	</Item>
 	<Item Name="CallerMessage.lvclass" Type="LVClass" URL="../CallerMessage/CallerMessage.lvclass"/>
 	<Item Name="Tcp.lvclass" Type="LVClass" URL="../Tcp/Tcp.lvclass"/>
 	<Item Name="DataReceived.lvclass" Type="LVClass" URL="../DataReceived/DataReceived.lvclass"/>
+	<Item Name="DataToSend.lvclass" Type="LVClass" URL="../DataToSend/DataToSend.lvclass"/>
 </Library>

@@ -13,12 +13,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Library" Type="Folder">
-			<Item Name="TcpSocket" Type="Folder">
-				<Item Name="TcpSocket.lvlib" Type="Library" URL="../../TcpSocket/Source/TcpSocket/TcpSocket.lvlib"/>
-			</Item>
-			<Item Name="ArgumentParser" Type="Folder">
-				<Item Name="ArgumentParser.lvlib" Type="Library" URL="../../ArgumentParser/Source/ArgumentParser.lvlib"/>
-			</Item>
+			<Item Name="DateTime.lvlib" Type="Library" URL="../../DateTime/Source/DateTime.lvlib"/>
+			<Item Name="PathUtils.lvlib" Type="Library" URL="../../PathUtils/Source/PathUtils.lvlib"/>
+			<Item Name="Logger.lvlib" Type="Library" URL="../../Logger/Source/Logger.lvlib"/>
+			<Item Name="PythonWrapper.lvlib" Type="Library" URL="../../PythonWrapper/Source/PythonWrapper.lvlib"/>
+			<Item Name="ArgumentParser.lvlib" Type="Library" URL="../../ArgumentParser/Source/ArgumentParser.lvlib"/>
+			<Item Name="TcpSocket.lvlib" Type="Library" URL="../../TcpSocket/Source/TcpSocket/TcpSocket.lvlib"/>
+		</Item>
+		<Item Name="Python" Type="Folder" URL="../Python">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Gui.lvlib" Type="Library" URL="../Source/Gui/Gui.lvlib"/>
 		<Item Name="Controller.lvlib" Type="Library" URL="../Source/Controller/Controller.lvlib"/>
@@ -26,7 +29,6 @@
 		<Item Name="Tcp.lvlib" Type="Library" URL="../Source/Tcp/Tcp.lvlib"/>
 		<Item Name="Connection.lvlib" Type="Library" URL="../Source/Connection/Connection.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Source/Main.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Source/Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -39,9 +41,14 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
