@@ -22,7 +22,3 @@
 	path = PathUtils
 	url = git@github.com:sw4sys/lv-path-utils.git
 	branch = library
-[submodule "LoggingActor"]
-	path = LoggingActor
-	url = git@github.com:sw4sys/lv-logging-actor.git
-	branch = library
