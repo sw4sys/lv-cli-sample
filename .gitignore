@@ -1,3 +1,7 @@
+#CliFramework
+CliFramework/Python/
+CliFramework/Log/
+
 # Libraries
 *.lvlibp
 *.llb
