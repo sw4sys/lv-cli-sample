@@ -19,6 +19,8 @@
 			<Item Name="PythonWrapper.lvlib" Type="Library" URL="../../PythonWrapper/Source/PythonWrapper.lvlib"/>
 			<Item Name="ArgumentParser.lvlib" Type="Library" URL="../../ArgumentParser/Source/ArgumentParser.lvlib"/>
 			<Item Name="TcpSocket.lvlib" Type="Library" URL="../../TcpSocket/Source/TcpSocket/TcpSocket.lvlib"/>
+			<Item Name="LoggingActor.lvlib" Type="Library" URL="../../LoggingActor/Source/LoggingActor/LoggingActor.lvlib"/>
+			<Item Name="Test.lvlib" Type="Library" URL="../../LoggingActor/Source/Test/Test.lvlib"/>
 		</Item>
 		<Item Name="Python" Type="Folder" URL="../Python">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
