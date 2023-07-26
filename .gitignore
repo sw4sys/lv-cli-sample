@@ -1,6 +1,5 @@
-#CliFramework
-CliFramework/Python/
-CliFramework/Log/
+#CliSample
+CliSample/Log/
 
 # Libraries
 *.lvlibp
